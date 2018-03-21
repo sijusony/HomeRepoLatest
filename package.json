@@ -1,0 +1,24 @@
+{
+  "name": "spring-boot",
+  "version": "1.0.0",
+  "description": "target poc",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sijusony/myReailPOC.git"
+  },
+  "author": "siju sony",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sijusony/myReailPOC/issues"
+  },
+  "homepage": "https://github.com/sijusony/myReailPOC#readme",
+  "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-uglify": "^3.3.0"
+  }
+}

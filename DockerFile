@@ -1,0 +1,4 @@
+FROM openjdk:8
+ADD target/SpringBootRestAPICassandraExample-1.0.0-SNAPSHOT.jar SpringBootRestAPICassandraExample-1.0.0-SNAPSHOT.jar
+EXPOSE 8085
+ENTRYPOINT ["java","-jar","SpringBootRestAPICassandraExample-1.0.0-SNAPSHOT.jar"]

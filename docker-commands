@@ -1,0 +1,36 @@
+docker build -f DockerFile -t spring-boot .
+docker run -p 8085:8085 spring-boot
+
+
+############pull docker image from docker hub
+docker pull <image-name:tag>
+
+##### to run image
+docker run <image-name:tag>
+
+#########3 to list all images in system
+docker images
+
+#############to list all running containers
+docker ps
+
+####### to list all running and non-running containers
+docker ps -a
+
+
+## build docker image from docker file
+docker build
+
+### to start container
+docker start <container id>
+
+
+### to stop container
+docker stop <container id>
+
+
+### to remove container
+docker rm <container id>
+
+### to remove image
+docker rmi <image id>
